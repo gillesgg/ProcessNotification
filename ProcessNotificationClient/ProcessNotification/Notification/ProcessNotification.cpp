@@ -16,7 +16,7 @@ namespace Notification
 	ProcessNotification::ProcessNotification()
 		: tracker_(std::make_unique<process_list>())
 	{
-
+		 
 	}
 
 	void ProcessNotification::StartETW()	
