@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Notifications">
+      <UniqueIdentifier>{74315920-e905-46bc-a0eb-e186e339477a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Notifications\Header Files">
+      <UniqueIdentifier>{eee9ad11-9dd2-4f24-bcba-4f88bc8cc979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Notifications\Source Files">
+      <UniqueIdentifier>{435dac7e-75ab-4f67-a615-f632fc48fd1e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProcessNotification.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DSMemTrack\src\Service\DSMemTrackSRV\Notification\IProcessNotification.cpp">
+      <Filter>Notifications\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DSMemTrack\src\Service\DSMemTrackSRV\Notification\process.cpp">
+      <Filter>Notifications\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DSMemTrack\src\Service\DSMemTrackSRV\Notification\process_list.cpp">
+      <Filter>Notifications\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DSMemTrack\src\Service\DSMemTrackSRV\Notification\process_module.cpp">
+      <Filter>Notifications\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DSMemTrack\src\Service\DSMemTrackSRV\Notification\process_thread.cpp">
+      <Filter>Notifications\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DSMemTrack\src\Service\DSMemTrackSRV\Notification\ProcessNotification.cpp">
+      <Filter>Notifications\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\DSMemTrack\src\Service\DSMemTrackSRV\Notification\ProcessNotification.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DSMemTrack\src\Service\DSMemTrackSRV\Notification\IProcessNotification.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DSMemTrack\src\Service\DSMemTrackSRV\Notification\process.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DSMemTrack\src\Service\DSMemTrackSRV\Notification\process_list.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DSMemTrack\src\Service\DSMemTrackSRV\Notification\process_module.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DSMemTrack\src\Service\DSMemTrackSRV\Notification\process_thread.h">
+      <Filter>Notifications\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
